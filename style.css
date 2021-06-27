@@ -1,0 +1,78 @@
+:root{
+  --custom-light-grey: #f1f2f6;
+  --custom-dark-grey: #2f3542;
+  --custom-font: 'Arial';
+  --custom-box-shadow: 0 2px 3px #dfe4ea;
+  --custom-border-radius: 8px;
+}
+
+body{
+    box-sizing: border box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    background: var(--custom-light-grey);
+    height: 100vh;
+}
+
+.main-container{
+    padding: 20px;
+    background: white;
+    box-shadow: var(--custom-box-shadow);
+    color: var(--custom-dark-grey);
+    font-family: var(--custom-font);
+    border-radius: var(--custom-border-radius);
+}
+
+.btns{
+  text-align: center;
+}
+.btn{
+  color: #ced6e0;
+  width: 120px; height: 40px;
+  border-radius: var(--custom-border-radius);
+  border: none;
+  background: var(--custom-light-grey);
+  cursor: pointer;
+  font-weight: bold; font-size: 14px;
+  letter-spacing: 0.5px;
+  margin: 10px 5px;
+}
+
+.generate:hover{
+    color: white;
+    background: #1e90ff;
+}
+.copy:hover{
+  color: white;
+  background: #2ed573;
+}
+.clear:hover{
+  color: white;
+  background: #ff4757;
+}
+
+#message{
+  font-size: 14px;
+  color: #20bf6b;
+  background: #D2FFC9;
+  padding: 10px;
+  border-radius: var(--custom-border-radius);
+}
+
+#textCopy{
+  border-radius: var(--custom-border-radius);
+  box-shadow: 5px 5px 10px #f1f2f6;
+  border: 2px solid #dfe4ea;
+  font-size: 22px; font-weight: bold;
+  padding: 20px 0;
+  text-align: center;
+  color: var(--custom-dark-grey);
+  margin: 20px 0;
+}
+footer{
+  margin: 10px 0;
+  font-family:'Arial';
+  color: #a4b0be;
+}
